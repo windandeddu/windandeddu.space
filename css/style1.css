@@ -1,0 +1,209 @@
+.light-theme{
+    background-color: lightgray;
+    font-family: Ubuntu;
+    color: gray;
+}
+.light-theme .base{
+    background-color: lightcyan;
+}
+.light-theme h1{
+    color: #7d7d7d;
+}
+.light-theme a{
+    color: coral;
+}
+.light-theme a:active{
+    color: chocolate;
+}
+.light-theme a:visited{
+    color: coral;
+}
+.light-theme .pred{
+    border: 1px lightblue solid;
+    border-radius: 10px;
+}
+
+
+.dark-theme{
+    background-color: #171c20;
+    font-family: Ubuntu;
+    color: #bfbfbf;
+}
+.dark-theme .base{
+    background-color: #22272b;
+}
+.dark-theme h1{
+    color: #7d7d7d;
+}
+.dark-theme a{
+    color: cornflowerblue;
+}
+.dark-theme a:active{
+    color: deepskyblue;
+}
+.dark-theme a:visited{
+    color: cornflowerblue;
+}
+.dark-theme .pred{
+    border: 1px lightblue solid;
+    border-radius: 10px;
+}
+
+.base{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.me{
+    max-width: 1240px;
+    position: relative;
+    margin-top: -300px;
+}
+
+.demo {
+  position: relative;
+  padding-top: 25%;
+}
+.demo input { display: none; }
+.demo label { transition: 3s; }
+.demo img {
+    max-height: 300px;
+    position: relative;
+    left: 50%;
+    bottom: 100%;
+}
+.demo label,
+.demo #vkl1:checked ~ [for="vkl1"],
+.demo #vkl2:checked ~ [for="vkl2"],
+.demo #vkl5:checked ~ [for="vkl5"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden; opacity: 0;
+}
+
+.demo #vkl1:checked ~ [for="vkl2"],
+.demo #vkl2:checked ~ [for="vkl5"],
+.demo #vkl5:checked ~ [for="vkl1"] {visibility: visible; opacity: 1;}
+
+blockquote {
+margin: 0;
+background: #F0F0F1;
+color: #333334;
+padding: 20px 30px;
+position: relative;
+border-left: 35px solid #DFDEDE;
+font-family: 'Lato', sans-serif;
+max-width: 480px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+blockquote:before {
+content: "\201C";
+font-family: serif;
+position: absolute;
+left: -29px;
+top: 5px;
+color: #BCBCBC;
+font-size: 50px;
+text-shadow: 1px 2px 0 white;
+}
+blockquote p {
+margin: 0 0 16px;
+font-size: 20px;
+letter-spacing: .05em;
+line-height: 1.4;
+}
+blockquote cite {
+font-style: normal;
+font-weight: 300;
+}
+
+
+.mobile .base{
+    font-size: 37pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mobile .me{
+    position: relative;
+    margin-top: 150px;
+}
+
+.mobile .demo {
+    position: relative;
+    margin-top: 370px;
+    margin-left: -1200px;
+}
+.mobile .demo input { display: none; }
+.mobile .demo label { transition: 3s; }
+.mobile .demo img {
+    max-height: 700px;
+
+
+}
+.mobile .demo label,
+.mobile .demo #vkl1:checked ~ [for="vkl1"],
+.mobile .demo #vkl2:checked ~ [for="vkl2"],
+.mobile .demo #vkl5:checked ~ [for="vkl5"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden; opacity: 0;
+}
+
+.mobile .demo #vkl1:checked ~ [for="vkl2"],
+.mobile .demo #vkl2:checked ~ [for="vkl5"],
+.mobile .demo #vkl5:checked ~ [for="vkl1"] {visibility: visible; opacity: 1;}
+
+.mobile blockquote {
+margin: 0;
+background: #F0F0F1;
+color: #333334;
+padding: 20px 30px;
+position: relative;
+border-left: 35px solid #DFDEDE;
+font-family: 'Lato', sans-serif;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+.mobile blockquote:before {
+content: "\201C";
+font-family: serif;
+position: absolute;
+left: -29px;
+top: 5px;
+color: #BCBCBC;
+font-size: 50px;
+text-shadow: 1px 2px 0 white;
+}
+.mobile blockquote p {
+margin: 0 0 16px;
+font-size: 20px;
+letter-spacing: .05em;
+line-height: 1.4;
+}
+.mobile blockquote cite {
+font-style: italic;
+font-weight: 300;
+}
+
+.mobile .pred{
+    font-size: 25pt;
+}
+
+.mobile .theme-button2{
+    width: 350px;
+    height: 60px;
+    font-size: 35pt;
+}
